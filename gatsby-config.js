@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `e - Language Lab`,
+    title: `e - language lab`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },

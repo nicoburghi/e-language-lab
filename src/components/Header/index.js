@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
         <h1>
             <Link to="/">{siteTitle}</Link>
         </h1>
-        <p></p>
+        <p>Coming soon...</p>
     </header>
 )
 
