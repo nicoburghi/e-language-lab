@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div id="wrapper">
+    <div id="wrapper" style={{ height: '100vh' }}>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <main>{children}</main>
         <footer style={{
