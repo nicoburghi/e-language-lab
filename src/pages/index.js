@@ -40,13 +40,17 @@ const IndexPage = () => (
                         <p>
                             Beginners - Clases de 1 hora 1 mes....... (8 clases) ........ €10 <br />
                             Intermediate - Clases de 1 hora 1 mes........ (8 clases) ........ €200 <br />
-                            Advanced - Clases de 1 hora1 mes........ (8 clases) ........ €240 euros
+                            Advanced - Clases de 1 hora1 mes........ (8 clases) ........ €240
                         </p>
                     </div>
                     <div className="col-6">
                         { /* <span class="icon major style3 fa-copy"></span> */ }
                         <h3>In-company lessons</h3>
-                        <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                        <p>
+                            Por favor contactarse por email a <a href="mailto: e.languagelab@gmail.com">e.languagelab@gmail.com</a> <br />
+                            para más información <br />
+                            O me pueden encontrar en Instagram como <a href="https://www.instagram.com/e.languagelab/" target="_blank">@e.languagelab</a> 
+                        </p>
                     </div>
                 </div>
             </section>
@@ -63,18 +67,22 @@ const IndexPage = () => (
                         <p>
                             Beginners - Clases de 1 hora 1 mes....... (8 clases) ........ €10 <br />
                             Intermediate - Clases de 1 hora 1 mes........ (8 clases) ........ €200 <br />
-                            Advanced - Clases de 1 hora1 mes........ (8 clases) ........ €240 euros
+                            Advanced - Clases de 1 hora1 mes........ (8 clases) ........ €240
                         </p>
                     </div>
                     <div className="col-6">
                         { /* <span class="icon major style3 fa-copy"></span> */ }
                         <h3>In-company lessons</h3>
-                        <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                        <p>
+                            Por favor contactarse por email a <a href="mailto: e.languagelab@gmail.com">e.languagelab@gmail.com</a> <br />
+                            para más información <br />
+                            O me pueden encontrar en Instagram como <a href="https://www.instagram.com/e.languagelab/" target="_blank">@e.languagelab</a> 
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <section id="about" class="main">
+            <section id="about" class="main special">
                 <div class="spotlight">
                     <div class="content">
                         <header class="major">
@@ -90,23 +98,22 @@ const IndexPage = () => (
                             Planifico las clases según los intereses y objetivos de los alumnos. Por esta razón, siempre prefiero tener una entrevista de unos minutos con el estudiante para conocer sus necesidades. Las clases tienen un precio accesible y son individuales. En ciertas ocasiones, surgen clases grupales pero se llevan a cabo con previa aprobación de los estudiantes involucrados.
                         </p>
                         <p>
-                            Pueden seguirme en Instagram para enterarse de todas las novedades @e.languagelab o pueden escribirme a e.languagelab@gmail.com.
+                            Pueden seguirme en Instagram para enterarse de todas las novedades <a href="https://www.instagram.com/e.languagelab/" target="_blank">@e.languagelab</a> o pueden escribirme a <a href="mailto: e.languagelab@gmail.com">e.languagelab@gmail.com</a>.
                         </p>
                         <p>
-L                           os espero en e-language lab, un espacio para experimentar con el idioma.
+L                           Los espero en e-language lab, un espacio para experimentar con el idioma.
                         </p>
+                        { /*
                         <ul class="actions">
                             <li><a href="generic.html" class="button">Learn More</a></li>
                         </ul>
+                        */ }
                     </div>
-                    <span class="image"><img src="../images/gatsby-astronaut.png" alt="" /></span>
+                    { /* <span class="image"><img src="../images/gatsby-astronaut.png" alt="" /></span> */ }
                 </div>
             </section>
 
           </div>
-
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
